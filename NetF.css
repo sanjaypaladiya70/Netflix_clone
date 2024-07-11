@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Mohave:ital@1&family=Noto+Sans:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,900&display=swap'); */
+
+.div1{
+    height: 110vh;
+
+}
+.div1 img{
+    height: 110vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.div1 nav{
+    transform: translateY(-107vh);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+.div1 nav .buttons{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div1 nav .buttons svg{
+    height: 25px;
+    width: 17px;
+    fill:white;
+    margin-right: 7px
+}
+.div1 nav .buttons .lang{
+    display: flex;
+    margin-right: 20px;
+    border: 0.2px solid white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: black;
+    filter: opacity(0.63);
+}
+
+.sign{
+    background-color: red;
+    padding: 4px 14px;
+    border-radius: 5px;
+}
+.div1 nav #logo{
+    height: 45px;
+    fill: red;
+}
+.div1 main{
+    transform: translateY(-90vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 37vh;
+}
+main .bold{
+    font-size: 40px;
+    font-weight: 900;
+}
+main .sec{
+    font-size: 25px;
+}
+main .tert{
+    font-size: 25px;
+}
+.mail{
+    display: flex;
+    justify-content: space-between;
+    width: 338px;
+}
+.mail address{
+    width: 180px;
+    background-color: black;
+    filter: opacity(0.4);
+    border: 0.5px solid white;
+    border-radius: 4px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+.mail st{
+    font-size: 25px;
+    padding: 4px 9px;
+    background-color: red;
+}
+
+
+.div2{
+    background-color: black;
+    margin-top: 3px;
+    height: 80vh;
+    /* font-family: 'Roboto', sans-serif; */
+    /* color:aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 140vw; */
+    width: 100vw;
+}
+.div2 .enjoy{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-left: 100px;
+    /* width: 550px; */
+    align-items: center;
+}
+.enjoy div:first-child{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.div2 img{
+    width: 480px;
+    position: relative;
+    left: -150px; 
+}
+.v{
+    /* transform: translateX(-597px) translateY(-7px); */
+    position: relative;
+    left: 261px;
+    top: -7px;
+    
+}
+
+.div3{
+    background-color: black;
+    height: 80vh;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    
+    padding-left: 10vw;
+}
+.div3 img{
+    height: 75%;
+}
+.div3 .text{
+    width: 400px;
+}
+.div3 .text div{
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.text t{
+    font-size: 25px;
+}
+.stranger svg{
+    fill: black;
+    height: 30px;
+    width: 20px;
+}
+.stranger img{
+    height: 100px;
+}
+.stranger{
+    /* transform: translateY(-150px) translateX(180px); */
+    position: relative;
+    top: 180px;
+    left: -810px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    width: 300px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.stranger .outer {
+    width: 100px;
+    height: 7px;
+    border: 1px solid rgb(0, 119, 255);
+    margin-top: 3px;
+    padding: 0px;
+    border-radius: 7px;
+}
+
+.inner {
+    background-color: rgb(0, 119, 255);
+    height: 7px;
+    width: 0px;
+    animation: down_ani 3s linear 0.5s infinite;
+}
+
+@keyframes down_ani {
+    from {
+        width: 0px; /* Set a non-zero initial width */
+    }
+    to {
+        width: 100px;
+    }
+}
+.stranger_text div:nth-child(2){
+    margin-top: 7px;
+    color: rgb(0, 119, 255);
+}
+.div4{
+    background-color: black;
+    height: 80vh;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    
+    padding-left: 60px;
+    
+}
+.div4 img{
+    height: 400px;
+    position: relative;
+    left: -150px;
+}
+.watch{
+    margin-left: 60px;
+}
+.div4 .watch h1{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.watch t{
+    font-size: 20px;
+}
+.div4 video{
+    /* height: 220px; */
+    width: 355px;
+    position: relative;
+    left: 292px;
+    top: -50px;
+}
+.div5{
+    background-color: black;
+    height: 80vh;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+}
+.div5 img{
+    height: 65vh;
+}
+.div5 div h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.div5 t{
+    
+    font-size: 25px;
+}
+.div6{
+    background-color: black;
+    height: 150vh;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div6 h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.div6 .swaal{
+    padding-left: 30px;
+    width: 80vw;
+    margin-bottom: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgb(53, 51, 51);
+}
+.div6 .ready{
+    font-size: 25px;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.div6 .sign_in{
+    display: flex;
+    margin-top: 30px;
+}
+.div6 .sign_in .email{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border: 2px solid white;
+    display: flex;
+    width: 20vw;
+    margin-right: 10px;
+}
+.div6 .sign_in .start{
+    height: 40px;
+    padding: 5px 10px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-size: 25px;
+    background-color: red;
+    border-radius: 7px;
+}
+
